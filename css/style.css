@@ -1,0 +1,335 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+}
+hr {
+  margin: 0px 7px;
+  padding: 0;
+  background: #d7d7d7;
+}
+p,
+a,
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+a:hover {
+  transition: 0.5s ease-in-out;
+}
+header {
+  background: #cb1789;
+}
+.mrezehead a {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #ffc4a6;
+  box-sizing: border-box;
+  border: 2px solid #ffc4a6;
+  color: #cb1789;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+.mrezehead a:hover {
+  background: transparent;
+  border: 2px solid #ffc4a6;
+  color: #ffc4a6;
+  transition: 0.5s ease-in-out;
+}
+#navigacija {
+  background: #fff;
+  border-bottom: 1px solid #545454;
+}
+#navigation {
+  height: 60px;
+  line-height: 60px;
+}
+nav a {
+  color: #545454;
+}
+nav a:hover {
+  color: #cb1789 !important;
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+.slidercont button:hover {
+  background: #960962;
+}
+.submenu {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  display: none;
+  z-index: 1000;
+  background: white;
+  padding: 0;
+  margin: 0;
+  width: 180px;
+  border: 1px solid #545454;
+  border-top: none;
+  transition: 0.5s ease-in-out;
+}
+.submenu li {
+  padding: 0 10px;
+}
+.submenu li a {
+  text-decoration: none;
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+.subparrent {
+  position: relative;
+}
+.subparrent:hover .submenu {
+  display: block;
+  transition: 0.5s ease-in-out;
+}
+
+.templogo {
+  height: 30px;
+}
+.slideh2bgd {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-66%);
+  background: rgba(203, 23, 137, 0.7);
+  height: 50px;
+
+  width: 100%;
+}
+.slideh2bgd h2 {
+  font-size: 1.3rem;
+  line-height: 50px;
+  padding: 0;
+  margin: 0;
+}
+.slidercont {
+  position: relative;
+}
+.slidercont button {
+  background: #cb1789;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.objava a {
+  text-decoration: none;
+}
+.objava h4 {
+  color: #cb1788;
+  transition: 0.3s ease-in-out;
+}
+.objava img {
+  transition: 0.3s ease-in-out;
+}
+.objava a:hover h4 {
+  color: #c66ddc;
+  transition: 0.3s ease-in-out;
+}
+.objava a:hover img {
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+.baneri a {
+  text-decoration: none;
+}
+#xenia {
+  height: 123px;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+  background: #14acc2 url('../images/listoverlay2.fw.png');
+  background-size: 500px;
+  background-position-x: 0;
+  margin-bottom: 21px;
+  transition: 0.5s ease-in-out;
+}
+.baneri a:hover #xenia {
+  background-color: #0080c0;
+  background-position: -130px 130px;
+  transition: 0.5s ease-in-out;
+}
+#msf {
+  height: 123px;
+  width: 100%;
+  background-size: 500px;
+  background-position-x: 0;
+  background: #fd8e60 url('../images/listoverlay2.fw.png');
+  transition: 0.5s ease-in-out;
+}
+.baneri a:hover #msf {
+  background-color: #d86a3b;
+  background-position: -130px 130px;
+  transition: 0.5s ease-in-out;
+}
+.dugme {
+  background: #cb1789;
+  transition: 0.5s ease-in-out;
+}
+
+.dugme:hover {
+  background: #960962;
+  transition: 0.3s ease-in-out;
+}
+.kozascr {
+  height: 380px;
+  width: 380px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.kozascr img {
+  width: 380px;
+  transition: 0.5s ease-in-out;
+}
+.kozascr h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  height: 95px;
+  line-height: 95px;
+  background: rgba(255, 196, 166, 0.8);
+}
+#utrendu h3 {
+  font-size: 1.8vw;
+}
+.kozascr:hover > img {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+}
+#vesti h5 {
+  color: #cb1788;
+  transition: 0.3s ease-in-out;
+}
+#vesti a {
+  text-decoration: none;
+}
+#vesti a:hover h5 {
+  color: #c66ddc;
+  transition: 0.3s ease-in-out;
+}
+.prefoot {
+  background: #ffc4a6;
+}
+footer {
+  height: 90px;
+  position: relative;
+}
+footer div {
+  height: 90px;
+}
+#footcont {
+  height: 90px;
+  line-height: 6vw;
+}
+#neglink {
+  text-decoration: none;
+  color: #cb1788;
+  transition: 0.3s ease-in-out;
+}
+#neglink:hover {
+  color: #c66ddc;
+}
+.mrezefoot {
+  height: 60px;
+  padding: 10px 0;
+}
+#nbglink {
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+#nbglink:hover {
+  text-decoration: none;
+  color: darkslateblue !important;
+}
+.mrezefoot a {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #cb1789;
+  box-sizing: border-box;
+  border: 2px solid #cb1789;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: 0.5s ease-in-out;
+}
+.mrezefoot a:hover {
+  background: transparent;
+  color: #cb1789;
+  transition: 0.5s ease-in-out;
+}
+#mobile-header {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #mobile-header {
+    display: block;
+  }
+}
+.upbutton {
+  position: absolute;
+  right: 40px;
+  top: 0;
+}
+.upbutton i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  background: #cb1789;
+  border: 1px solid #cb1789;
+  transition: 0.3s ease-in-out;
+}
+.upbutton:hover i {
+  background: #fff;
+  color: #cb1789;
+  transition: 0.3s ease-in-out;
+}
+#mobile-header {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  .kozascr {
+    height: 250px;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .kozascr {
+    height: 380px;
+    overflow: hidden;
+  }
+  #mobile-header {
+    display: block;
+  }
+  #navigacija {
+    background: linear-gradient(to right, #cb1789, #960962);
+    border: none;
+  }
+  hr {
+    display: none;
+  }
+  .submenu {
+    border: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .kozascr {
+    height: 250px;
+  }
+  #utrendu h3 {
+    font-size: 20px;
+  }
+}
